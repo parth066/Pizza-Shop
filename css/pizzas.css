@@ -1,0 +1,34 @@
+#edit, #delete {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#edit .edit-btn  {
+    color: whitesmoke;
+  background: greenyellow;
+  padding: 4px 12px;
+  font-size: 15px;
+  font-weight: 00;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  
+}
+
+#delete .delete-btn {
+    background: red;
+    color: whitesmoke;
+  padding: 4px 12px;
+  font-size: 15px;
+  font-weight: 00;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
